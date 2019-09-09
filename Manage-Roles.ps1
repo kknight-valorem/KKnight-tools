@@ -1,4 +1,4 @@
-<# Edit-Role.ps1 
+<# Manage-Roles.ps1 
 #   This powershell will get a role and load the definition into a text file for editting
 
 Next pass try reconstructing a new object from scratch.
