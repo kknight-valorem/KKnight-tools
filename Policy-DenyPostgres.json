@@ -1,0 +1,9 @@
+{
+"if": {
+"anyOf": [
+    { "field": "type", "equals": "Microsoft.DBforPostgreSQL/serversv2" },
+    { "field": "type", "equals": "Microsoft.DBforPostgreSQL/servers" }
+]
+},
+"then": { "effect": "deny" }
+}
